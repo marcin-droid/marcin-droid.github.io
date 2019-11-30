@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- main nav start -->
+    <nav id="main-nav">
+        <ul>
+            <li class="list-item"><a href="https://google.com" target="_blank">google</a></li>
+            <li class="list-item"><a href="#main">main</a></li>
+            <li class="list-item"><a href="mailto:kursy@akademia108.pl">napisz mail</a></li>
+            <li class="list-item"><a href="tel:+48123456789">zadzwon</a></li>
+            <li class="list-item"><a href=""></a></li>
+        </ul>
+    </nav>
+    <!-- main nav end -->
+    <section>
+        <h2>Tytuł</h2>
+        <div class="section-inner">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nihil atque sint vitae alias minus eveniet placeat ipsum non sapiente nisi quam quod deserunt, adipisci cum sed consequuntur recusandae quaerat.</p>
+        </div>
+    </section>
+    <section id="main">
+        tresc main
+    </section>
+
+    <!-- tabela -->
+    <table>
+        <!-- glowa tabeli -->
+        <thead>
+            <!-- wiersz -->
+            <tr>
+                <th>Produkt</th>
+                <th>Ilosc</th>
+                <th>Cena</th>
+            </tr>
+        </thead>
+
+        <!-- cialo tabeli -->
+        <tbody>
+            <tr>
+                <td>jablka</td>
+                <td>100</td>
+                <td>1,01</td>
+            </tr>
+            <tr>
+                <td>gruszki</td>
+                <td>16</td>
+                <td>1,61</td>
+            </tr>
+            <tr>
+                <td>ogorki</td>
+                <td>1020</td>
+                <td>1,6</td>
+            </tr>
+        </tbody>
+
+        <!-- stopka tabeli -->
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td>255</td>
+                <td>222</td>
+            </tr>
+        </tfoot>
+    </table>
+
+<!-- formularz -->
+    <form action="" method="">
+        <input type="text" placeholder="Imię" disabled>
+        <label for="tel">Telefon:</label>
+        <input type="number" id="tel" placeholder="Numer" required>
+        <input type="checkbox" name="d" checked="yes" disabled>
+        <input type="checkbox" name="d">
+
+        <input type="radio" name="plec">
+        <input type="radio" name="plec">
+        <textarea name="" id="" maxlength="1"></textarea>
+        <input type="submit">
+        <select name="select" id="">
+            <option value="value1">Wartosc 1</option>
+            <option value="value2" selected="yes">Wartosc 2</option>
+            <option value="value3">Wartosc 3</option>
+        </select>
+    </form>
+    <form action="https://formspree.io/marcin_koziol@outlook.com" method="POST">
+            <label for="imie">Imię:</label><br />
+            <input type="text" name="imie" id="imie"><br />
+            <label for="nazwisko">Nazwisko:</label><br />
+            <input type="text" name="nazwisko" id="nazwisko"><br />
+            <input type="submit" value="Wyślij" >
+            </form>
+</body>
+</html>
